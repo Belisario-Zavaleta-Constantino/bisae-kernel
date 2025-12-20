@@ -1,0 +1,21 @@
+{
+  "name": "bisae/kernel",
+  "description": "BISAE es una plataforma que crea plataformas. Facilita la automatización y sistematización de procesos al modelarlos como operaciones mentales del ingenio humano, permitiendo construir software modular, auditable y evolutivo para comunidades de desarrollo y conocimiento.",
+  "type": "library",
+  "license": "Apache 2.0",
+  "authors": [
+    {
+      "name": "Belisario Zavaleta Constantino",
+      "role": "Fundador"
+    }
+  ],
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "bisae\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
