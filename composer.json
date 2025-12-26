@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "bisae\\": "src/"
+      "bisae\\kernel\\": "src/"
     }
   },
   "minimum-stability": "stable"

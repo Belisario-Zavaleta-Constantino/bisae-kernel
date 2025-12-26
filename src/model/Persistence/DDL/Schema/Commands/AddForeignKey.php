@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 final class AddForeignKey implements SchemaCommand
@@ -29,3 +30,36 @@ final class AddForeignKey implements SchemaCommand
         return $this->referenceColumn;
     }
 }
+=======
+<?php
+
+final class AddForeignKey implements SchemaCommand
+{
+    public function __construct(
+        private string $table,
+        private string $column,
+        private string $referenceTable,
+        private string $referenceColumn
+    ) {}
+
+    public function table(): string
+    {
+        return $this->table;
+    }
+
+    public function column(): string
+    {
+        return $this->column;
+    }
+
+    public function referenceTable(): string
+    {
+        return $this->referenceTable;
+    }
+
+    public function referenceColumn(): string
+    {
+        return $this->referenceColumn;
+    }
+}
+>>>>>>> 592f152ef533241bbdb144c4e5bbbe19b897f4cc
